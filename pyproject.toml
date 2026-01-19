@@ -24,7 +24,7 @@ version = "0.7.2"
 [project.urls]
 homepage = "https://github.com/cmake-wheel/proxsuite"
 repository = "https://github.com/cmake-wheel/proxsuite.git"
-upstream = "https://github.com/Simple/proxsuite"
+upstream = "https://github.com/Simple-Robotics/proxsuite"
 
 [tool.cmeel]
 configure-args = [
