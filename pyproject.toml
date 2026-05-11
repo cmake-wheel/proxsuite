@@ -19,7 +19,7 @@ license = "BSD-2-Clause"
 name = "proxsuite"
 readme = "README.md"
 requires-python = ">= 3.9"
-version = "0.7.2"
+version = "0.7.3"
 
 [project.urls]
 homepage = "https://github.com/cmake-wheel/proxsuite"
@@ -37,8 +37,6 @@ configure-args = [
 ]
 
 [tool.ruff.lint]
-exclude = ["bindings/python/external/nanobind/*", "cmake-module/*"]
 ignore = ["E741"]
-
-[tool.tomlsort]
-all = true
+extend-select = ["W605"]
+exclude = ["cmake-module/*", "bindings/python/external/nanobind/*"]
