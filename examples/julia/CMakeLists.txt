@@ -7,7 +7,7 @@ foreach(EXAMPLE ${${PROJECT_NAME}_JULIA_EXAMPLES})
     EXAMPLE
     ${EXAMPLE}
   )
-  add_julia_unit_test(
+  ADD_JULIA_UNIT_TEST(
     "${PROJECT_NAME}-example-jl-${EXAMPLE}"
     "examples/julia/${EXAMPLE}"
   )
